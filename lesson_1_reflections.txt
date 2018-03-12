@@ -1,0 +1,32 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+1. view only wich lines changed. time saver.
+2. dependency views. gives code quality analysis.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+1. what types of errors are more common by me or team
+2. helps in creating efficient design of program such that changes to some parts enable changes in other dependencies automaticxally.
+3. reflects on how frequently i change code
+4. tells me if i have a clear knowledge about the idea that iam coding for.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+pros:
+1. clear logical changes based commit.
+2. less clutter
+cons:
+1. might forget
+2. may not be a good segregation all times.
+3. team need to know, as to whats hapening, if the changes havent been committed for a long time.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+1. updating dependency files automatically. 
+2. shows up how many files get affected if they are dependent.
+3. if there are any errors in other files due to changes in one file it can show up.
+
+How can you use the commands git log and git diff to view the history of files?
+1. git log gives all the commits that has been made in to the repository/clone
+2. by selecting any two commit ids from the above step and using git diff newid1 oldid1 command produces changes that has been made. count +,-.
+
+How might using version control make you more confident to make changes that could break something?
+1. makes me try different logics without worrying about losing track of what all changes that i have made and impact it can have.
+2. i would not need to save multiple copy pasted versions of entire code file for each such brazen move.
+3. as each commit needs a message to be logged it enforces proper documentation
