@@ -1,0 +1,12 @@
+What happens when you initialize a repository? Why do you need to do it?
+1. git init: is the command that creates a git repo. it creates a .git [dot implies hidden file] file whose function is to import/export metadata 
+    from/to ithub to/from PC.
+2. git status gives the list of files that has been changed since the last commit. git doesnt make any commits by itself, even during git init.
+    each commit is like a snapshot of all the files in that repo [ or specific files which we want to sync]
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+1. working directory: i think it is the local directory/clone.
+2. staging area: its an intermediate stage between uncommited changes in working directory and committed changes in repository(remote)
+    git add filename: adds the file to the staging area. git reset filename: this removes that filename from the staging area. this helps avoiding commits by mistake.
+    git status shows files in all three states. working directory, staged, committed. 
+        
