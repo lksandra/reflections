@@ -8,5 +8,15 @@ How is the staging area different from the working directory and the repository?
 1. working directory: i think it is the local directory/clone.
 2. staging area: its an intermediate stage between uncommited changes in working directory and committed changes in repository(remote)
     git add filename: adds the file to the staging area. git reset filename: this removes that filename from the staging area. this helps avoiding commits by mistake.
-    git status shows files in all three states. working directory, staged, committed. 
+    git status shows files in all three states. working directory, staged, committed.
+
+How can you use the staging area to make sure you have one commit per logical change?
+1. by finding the diff between repo's recent commit and the changes in staging area (git diff --staged) we can ascertain if it is one commit per logical change. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+1. when i want to append few new experimental features, and development of each feature has to go on parallely building on the base application that already exists,
+creating branches i.e each feature added to base application will be treated as a version. v1, v2, v3 etc will be versions. if v2 is not good for the consumer
+then we can simply remove v2 branch. if v1 and v3 are good then we can merge v1, v3 branches to give a finished product. if nothing succeeds we can revert to the base application.
+2. branch is basically a version. similar to editing the code that has been copied from main code file.
+ 
         
