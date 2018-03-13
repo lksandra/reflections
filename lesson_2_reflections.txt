@@ -18,5 +18,10 @@ What are some situations when branches would be helpful in keeping your history 
 creating branches i.e each feature added to base application will be treated as a version. v1, v2, v3 etc will be versions. if v2 is not good for the consumer
 then we can simply remove v2 branch. if v1 and v3 are good then we can merge v1, v3 branches to give a finished product. if nothing succeeds we can revert to the base application.
 2. branch is basically a version. similar to editing the code that has been copied from main code file.
- 
+
+How do the diagrams help you visualize the branch structure?
+1. gives a clear picture as to what features are present in each branch.
+2. who is working on what feature
+3. ascertain which stage of production is the project in
+
         
