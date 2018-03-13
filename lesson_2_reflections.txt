@@ -24,4 +24,14 @@ How do the diagrams help you visualize the branch structure?
 2. who is working on what feature
 3. ascertain which stage of production is the project in
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+1. merging two branches is logically combining the two codes in to one. technically its a new commit where the Head now points to the merged version.
+    and the head will have as parent both 'merged into branch' and 'merged branch'.
+2. unless we delete the branch name it still exists and calling checkout branchname will give the expected result.
+3. diagramatic representation will helps us to visualise the commits better.
+4. git log after merging displays the commits in the order of time of commits. this however may not indicate the true parent-child relationship.
+    main developer1 commits at 10pm, 11pm. branch developer commits at 1030pm, 1130pm. Now the result of merged version shows commits[git log] in the order
+    1130, 11, 1030, 10. but 11 is not the parent of 1130 in reality.
+5. to find out the differene wrt true parent of a commit the 'git show commitid' gives us the difference of code.    
+
         
