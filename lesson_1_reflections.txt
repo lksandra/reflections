@@ -30,3 +30,8 @@ How might using version control make you more confident to make changes that cou
 1. makes me try different logics without worrying about losing track of what all changes that i have made and impact it can have.
 2. i would not need to save multiple copy pasted versions of entire code file for each such brazen move.
 3. as each commit needs a message to be logged it enforces proper documentation
+
+How Do You Want to Use Git?
+1. for every project i do iam going to use github to become a better developer.
+2. all the team oriented projects will be done using github.
+
