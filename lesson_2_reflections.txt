@@ -34,4 +34,14 @@ What is the result of merging two branches together? Why do we represent it in t
     1130, 11, 1030, 10. but 11 is not the parent of 1130 in reality.
 5. to find out the differene wrt true parent of a commit the 'git show commitid' gives us the difference of code.    
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+1. pros of git's auto merge
+    1. reduces much of the time
+    2. clearly identifies if there are any conflicts between two different implementations for the same entity.
+2. cons of git's auto merge
+    1. will not be able to identify two different entities essentially doing the same functionality.
+1. pros of manual merging vis a vis auto
+    1. developers will be able to spot clear semantic conflicts.  
+2. cons of manual merging
+    1. takes more time.      
         
