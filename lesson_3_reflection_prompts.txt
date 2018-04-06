@@ -6,3 +6,20 @@ Why might you want to always pull changes manually rather than having Git automa
 1. sometimes git auto push is good as it removes hazzles.
 2. But sometimes the changes, added by someone for example to my repository, may not be necessarily right or even cause harm to my files.
 3. my branch head currently might be in a semi modified state and perhaps that might cause an issue if there is a new commit pushed onto my local system by the git.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Essentially all three are various ways of creating versions.
+clones: 
+  1.copying data from one location to another location on same system. i.e github account to github account OR local pc to local pc.
+  2.we generally do git clone repoName to get some repo into our system. This command automatically creates a remote named origin in the       repoName folder. 
+  3.any changes that we make on the local system OR github/remote needs to be commited&pushed to github OR pulled into local system. NOt       automatic.
+Forks:
+  1.forks are similar to clones but used only when we copy data from one github account to other github account.
+  2.this is used when we want to modify other's data and produce some new code.
+  3.clone userX's repo into local system. Then push that clone from local system to userY's remote/github. Now any changes that are done       to userY's remote code doesnt impact userX's code. However no one will even know who the origin(al) owener was. To avoid these issues     forking was invented by github, at the click of a button.
+  4.forking just creates one copy in github. BUt doesnt clone to the local system unless asked. Github maitains track of the people that       forked from a user.
+  5.any text etc files can be edited in git fork itself. But for code changes better to clone the fork.
+  6.no auto pushes/commits b/w them.
+Branches:
+  1.branch is just a code commit. all the commits can be accessed if they are reachabale.
+  
