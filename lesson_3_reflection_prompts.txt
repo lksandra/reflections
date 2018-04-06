@@ -23,3 +23,6 @@ Forks:
 Branches:
   1.branch is just a code commit. all the commits can be accessed if they are reachabale.
   
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+1. the last known state of the remote means a label/pointer["remote_name/branch_name"] as to till where both remote and local system have    same data. So when there is a new data that need to be pushed from the github it just finds that above mentioned label/pointer and adds    the new changes      from the github to the localsystem as a child to that label. efficient way of adding data.
