@@ -26,3 +26,6 @@ Branches:
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 1. the last known state of the remote means a label/pointer["remote_name/branch_name"] as to till where both remote and local system have    same data. So when there is a new data that need to be pushed from the github it just finds that above mentioned label/pointer and adds    the new changes      from the github to the localsystem as a child to that label. efficient way of adding data.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+1. normal sending codes by email to people. merge the codes by sitting together.
